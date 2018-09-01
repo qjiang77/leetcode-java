@@ -1,3 +1,7 @@
+package Array;
+
+import java.util.*;
+
 /*
 435. Non-overlapping Intervals
 Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
@@ -42,10 +46,18 @@ Methods:
  *     Interval(int s, int e) { start = s; end = e; }
  * }
  */
-class Solution {
+
+public class NonoverlappingIntervals {
+    public class Interval {
+        int start;
+        int end;
+        Interval() { start = 0; end = 0; }
+        Interval(int s, int e) { start = s; end = e; }
+    }
+
     public int eraseOverlapIntervals(Interval[] intervals) {
         if (intervals == null || intervals.length == 0) return 0;
-        
+
         int res = 1;
         Arrays.sort(intervals, Comparator.comparingInt((Interval o) -> o.end));
         int end = intervals[0].end;
