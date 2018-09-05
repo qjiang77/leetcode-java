@@ -1,4 +1,6 @@
 package DP;
+
+import java.util.*;
 /*
 【斐波那契数列】
 1. 组合数学————错排问题
@@ -32,3 +34,29 @@ solution：
 
 【矩阵路径】
  */
+class note{
+    // elements could be +1/-1
+    // return the minStep that make the array ascending
+    // 求是数组变为递增数组的最小cost
+    public int minStep(int[] a) {
+        if(a == null || a.length == 0) return 0;
+        // only int, char, float, double: value
+        // array and etc.:address
+        int l = a.length;
+        int[] b = new int[l];
+        for(int i = 0; i < l; i++) {
+            b[i] = a[i];
+        }
+        Arrays.sort(b);
+        int[] dp = new int[l+1];
+        for(int i = 0; i < l; i++) {
+            for(int j = 0; j < l; j++) {
+                dp[j] = dp[j] + Math.abs(a[i]-b[j]);
+                if(j>1) {
+                    dp[j] = Math.min(dp[j-1], dp[j]);
+                }
+            }
+        }
+        return dp[l];
+    }
+}
