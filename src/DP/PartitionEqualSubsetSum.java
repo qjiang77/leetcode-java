@@ -25,6 +25,8 @@ Output: false
 
 Explanation: The array cannot be partitioned into equal sum subsets.
 
+dp[i]，表示数字i是否是原数组的任意个子集合之和
+
  */
 public class PartitionEqualSubsetSum {
     public boolean canPartition(int[] nums) {
