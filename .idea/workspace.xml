@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0bc790b-d274-4e4c-9bdc-03a395526f82" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DP/PartitionEqualSubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/PartitionEqualSubsetSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DP/note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/note.java" afterDir="false" />
-    </list>
+    <list default="true" id="d0bc790b-d274-4e4c-9bdc-03a395526f82" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,29 +20,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Note_KnapsackProblem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DP/Note_KnapsackProblem.java">
+      <file leaf-file-name="BestTimeToBuyAndSellStockWithCooldown.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DP/BestTimeToBuyAndSellStockWithCooldown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="495">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OnesAndZeroes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DP/OnesAndZeroes.java">
+      <file leaf-file-name="BestTimeToBuyAndSellStockWithTransactionFee.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DP/BestTimeToBuyAndSellStockWithTransactionFee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CombinationSumIV.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DP/CombinationSumIV.java">
+      <file leaf-file-name="Note_StockProblem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DP/Note_StockProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            <state relative-caret-position="666">
+              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
             </state>
           </provider>
         </entry>
@@ -65,8 +61,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -115,6 +111,9 @@
         <option value="$PROJECT_DIR$/src/DP/Note_KnapsackProblem.java" />
         <option value="$PROJECT_DIR$/src/DP/OnesAndZeroes.java" />
         <option value="$PROJECT_DIR$/src/DP/CombinationSumIV.java" />
+        <option value="$PROJECT_DIR$/src/DP/Note_StockProblem.java" />
+        <option value="$PROJECT_DIR$/src/DP/BestTimeToBuyAndSellStockWithCooldown.java" />
+        <option value="$PROJECT_DIR$/src/DP/BestTimeToBuyAndSellStockWithTransactionFee.java" />
       </list>
     </option>
   </component>
@@ -270,15 +269,16 @@
       <option name="presentableId" value="Default" />
       <updated>1535825741336</updated>
       <workItem from="1535825742953" duration="12379000" />
-      <workItem from="1536633919171" duration="11497000" />
+      <workItem from="1536633919171" duration="20360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51707000" />
+    <option name="totallyTimeSpent" value="60570000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="747" y="0" width="693" height="900" extended-state="6" />
+    <frame x="722" y="0" width="718" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -293,7 +293,7 @@
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.14718615" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.14206128" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="1" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
@@ -322,21 +322,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/Non-overlapping Intervals.java" />
-    <entry file="file://$PROJECT_DIR$/src/Array/NonoverlappingIntervals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/BestTimetoBuyandSellStock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -622,13 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/note.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="108" column="7" selection-start-line="104" selection-start-column="1" selection-end-line="108" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DP/TargetSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -663,8 +641,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DP/CombinationSumIV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/note.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="108" column="7" selection-start-line="104" selection-start-column="1" selection-end-line="108" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/Note_StockProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/BestTimeToBuyAndSellStockWithCooldown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/BestTimeToBuyAndSellStockWithTransactionFee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
