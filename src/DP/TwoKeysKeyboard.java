@@ -15,6 +15,17 @@ In step 3, we use Paste operation to get 'AAA'.
  */
 public class TwoKeysKeyboard {
     public int minSteps(int n) {
-
+        int[] dp = new int[n+1];
+        int h = (int)Math.sqrt(n);
+        for(int i = 2; i < n+1; i++) {
+            dp[i] = i;
+            for(int j = 2; j < h+1; j++) {
+                if(i % j == 0) {
+                    dp[i] = dp[j]+dp[i/j];
+                    break;
+                }
+            }
+        }
+        return dp[n];
     }
 }
